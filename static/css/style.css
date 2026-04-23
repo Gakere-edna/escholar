@@ -1,0 +1,47 @@
+
+      .navbar-brand {
+        font-size: 24px;
+        font-weight: bold;
+        color: #f30000 !important;
+        letter-spacing: 1px;
+      }
+      .navbar-brand i {
+        color: #000000;
+        margin: 0 2px;
+      }
+        .nav-link {
+            font-size: 18px;
+            color: #ffffff !important;
+            margin-right: 15px;
+            transition: color 0.3s ease;
+        }   
+    
+    .fancy-quote {
+  position: relative;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  padding: 0 40px; /* Space for the big quotes */
+  line-height: 1.6;
+}
+
+.fancy-quote::before,
+.fancy-quote::after {
+  font-size: 5rem;     
+  font-family: serif;   
+  color: #0000ff;       
+  position: absolute;
+  line-height: 1;
+}
+.fancy-quote::before {
+  content: '“';
+  left: 0;
+  top: -20px;
+}
+
+.fancy-quote::after {
+  content: '”';
+  bottom: -40px;
+  margin-left: 10px;
+}
+
+    
